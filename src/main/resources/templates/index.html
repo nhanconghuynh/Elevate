@@ -10,45 +10,7 @@
 
     <!--<link rel="stylesheet" th:href="@{style.css}" type="text/css"> -->
     <link rel="stylesheet" href="../static/style.css" type="text/css">
-    <style>
-        /* Set height of the grid so .sidenav can be 100% (adjust if needed) */
-        .row.content {
-            height: 1500px
-        }
 
-        /* Set gray background color and 100% height */
-        .sidenav {
-            top: 100px;
-            background-color: #f1f1f1;
-            height: 85%;
-        }
-        .content{
-            top: 100px;
-        }
-        .navbar-brand{
-            width: 150px;
-            height: 90px;
-        }
-
-        /* Set black background color, white text and some padding */
-        footer {
-            background-color: #555;
-            color: white;
-            padding: 15px;
-        }
-
-        /* On small screens, set height to 'auto' for sidenav and grid */
-        @media screen and (max-width: 767px) {
-            .sidenav {
-                height: auto;
-                padding: 15px;
-            }
-
-            .row.content {
-                height: auto;
-            }
-        }
-    </style>
 </head>
 <body>
 
@@ -138,13 +100,13 @@
 
 <div class="container-fluid">
     <div class="row content">
-        <div class="col-sm-3 sidenav">
-            <h4>John's Blog</h4>
+        <div class="col-sm-3 sidenav text-center">
+            <h4>Topics</h4>
             <ul class="nav nav-pills nav-stacked">
-                <li class="active"><a href="#section1">Home</a></li>
-                <li><a href="#section2">Friends</a></li>
-                <li><a href="#section3">Family</a></li>
-                <li><a href="#section3">Photos</a></li>
+                <li class="active"><a href="#section1">GitHub</a></li>
+                <li><a href="#section2">Program Design & Algorithm</a></li>
+                <li><a href="#section3">Web Design</a></li>
+                <li><a href="#section3">Java</a></li>
             </ul>
             <br>
             <div class="input-group">
