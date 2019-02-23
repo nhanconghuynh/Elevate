@@ -49,4 +49,19 @@ public class HomeController {
         return "BootStrap";
     }
 
+    @GetMapping("/Github")
+    public String Github(){
+        return "Github";
+    }
+
+    @GetMapping("/program")
+    public String programDesign(){
+        return "programDesign";
+    }
+
+    @GetMapping("/java")
+    public String java(){
+        return "java";
+    }
+
 }
