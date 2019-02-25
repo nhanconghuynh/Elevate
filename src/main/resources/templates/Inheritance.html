@@ -1,13 +1,108 @@
 <!doctype html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport"
-          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Inheritance</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <!--<link rel="stylesheet" th:href="@{style.css}" type="text/css"> -->
+    <link rel="stylesheet" href="../static/style.css" type="text/css">
+    <!-- theme link from bootswatch -->
+    <link rel="stylesheet" href="https://bootswatch.com/3/superhero/bootstrap.min.css" type="text/css">
+    <title>Elevate Group</title>
 </head>
 <body>
+
+<!-- Start Nav-Bar-->
+
+<div class="row">
+    <div class="col-md-12">
+        <nav class="navbar navbar-default navbar-fixed-top">
+            <div class="container-fluid">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <!--<a class="navbar-brand" href="#">Logo</a>-->
+
+                    <img src="https://res.cloudinary.com/dmwim1a1p/image/upload/v1550954458/Elevate-Logo.png"
+                         class="navbar-brand" id="toplogo" alt="Logo">
+                </div>
+                <div class="collapse navbar-collapse" id="myNavbar">
+                    <ul class="nav navbar-nav navbar-right">
+                        <li class="active"><a href="/">Home</a></li>
+
+                        <li class="dropdown">
+                            <a class="dropdown-toggle" data-toggle="dropdown" href="#">About
+                                <span class="caret"></span>
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a href="/AboutBootCamp">About BootCamp</a></li>
+                                <li><a href="/AboutDeveloper">About Developer</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#">Projects</a></li>
+                        <li><a href="#">Contact</a></li>
+                    </ul>
+                    <ul class="nav navbar-nav navbar-right">
+                        <!--<li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>-->
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </div>
+</div>
+
+<!--End Nav Bar-->
+
+
+<!--Start side nav -->
+<div class="container-fluid">
+    <div class="row content">
+        <div class="col-sm-3 sidenav text-center">
+            <h4>Topics</h4>
+            <ul class="nav nav-pills nav-stacked">
+                <li><a href="/Github">Git & GitHub</a></li>
+                <li><a href="/program">Program Design & Algorithm</a></li>
+                <li class="dropdown">
+                    <a class="dropdown-toggle" data-toggle="dropdown" href="#">Web Design
+                        <span class="caret"></span>
+                    </a>
+                    <ul class="dropdown-menu">
+                        <li><a href="/html5">HTML5</a></li>
+                        <li><a href="/css">CSS3</a></li>
+                        <li><a href="/javascript">Javascript</a></li>
+                        <li><a href="/mysql">My Sql</a></li>
+                        <li><a href="/springBoot">Spring Boot</a></li>
+                        <li><a href="/bootstrap">BootStrap</a></li>
+                    </ul>
+                </li>
+                <li><a href="/java">Java</a></li>
+            </ul>
+            <br>
+            <div class="input-group">
+                <input type="text" class="form-control" placeholder="Search Blog..">
+                <span class="input-group-btn">
+          <button class="btn btn-default" type="button">
+            <span class="glyphicon glyphicon-search"></span>
+          </button>
+        </span>
+            </div>
+        </div>
+
+        <!--End Side Nav-->
+
+<hr>
 <h2>Inheritance</h2>
+
+
+    </div>
+</div>
+<!--JS and Jquery -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
 </body>
 </html>

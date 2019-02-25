@@ -1,8 +1,9 @@
 
 /* Remove the navbar's default margin-bottom and rounded borders */
 .navbar-brand{
-    width: 150px;
-    height: 150px;
+    width: 100px;
+    height: 100px;
+
 }
 .navbar {
     margin-bottom: 0;
@@ -34,6 +35,12 @@ footer {
     }
 .row.content {height:auto;}
 }
+
+
+
+
+
+
 
 
 

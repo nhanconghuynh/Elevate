@@ -1,21 +1,19 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" xmlns:th="www.thymeleaf.org">
 <head>
-
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
-
     <!--<link rel="stylesheet" th:href="@{style.css}" type="text/css"> -->
     <link rel="stylesheet" href="../static/style.css" type="text/css">
+    <!-- theme link from bootswatch -->
     <link rel="stylesheet" href="https://bootswatch.com/3/superhero/bootstrap.min.css" type="text/css">
     <title>Elevate Group</title>
 </head>
 <body>
 
-<!--Nav-Bar-->
+<!-- Start Nav-Bar-->
+
 <div class="row">
     <div class="col-md-12">
         <nav class="navbar navbar-default navbar-fixed-top">
@@ -29,11 +27,12 @@
                     </button>
                     <!--<a class="navbar-brand" href="#">Logo</a>-->
 
-                    <img src="https://res.cloudinary.com/dzvnlvrcf/image/upload/v1550851884/montgomery.jpg" class="navbar-brand" alt="Logo">
+                    <img src="https://res.cloudinary.com/dmwim1a1p/image/upload/v1550954458/Elevate-Logo.png"
+                         class="navbar-brand" id="toplogo" alt="Logo">
                 </div>
                 <div class="collapse navbar-collapse" id="myNavbar">
                     <ul class="nav navbar-nav navbar-right">
-                        <li class="active"><a href="#">Home</a></li>
+                        <li class="active"><a href="/">Home</a></li>
 
                         <li class="dropdown">
                             <a class="dropdown-toggle" data-toggle="dropdown" href="#">About
@@ -56,7 +55,9 @@
     </div>
 </div>
 
+<!--End Nav Bar-->
 
+<!--Start side nav -->
 <div class="container-fluid">
     <div class="row content">
         <div class="col-sm-3 sidenav text-center">
@@ -76,7 +77,7 @@
                         <li><a href="/springBoot">Spring Boot</a></li>
                         <li><a href="/bootstrap">BootStrap</a></li>
                     </ul>
-                    </li>
+                </li>
                 <li><a href="/java">Java</a></li>
             </ul>
             <br>
@@ -89,6 +90,8 @@
         </span>
             </div>
         </div>
+
+        <!--End Side Nav-->
 
         <div class="col-sm-9 content">
             <h4>
@@ -134,7 +137,8 @@
 
             <div class="row">
                 <div class="col-sm-2 text-center">
-                    <img src="https://res.cloudinary.com/dmwim1a1p/image/upload/v1550758767/samples/animals/kitten-playing.gif" class="img-circle" height="65" width="65" alt="Avatar">
+                    <img src="https://res.cloudinary.com/dmwim1a1p/image/upload/v1550758767/samples/animals/kitten-playing.gif"
+                         class="img-circle" height="65" width="65" alt="Avatar">
                 </div>
                 <div class="col-sm-10">
                     <h4>Anja
@@ -145,7 +149,8 @@
                     <br>
                 </div>
                 <div class="col-sm-2 text-center">
-                    <img src="https://res.cloudinary.com/dmwim1a1p/image/upload/v1550758763/samples/landscapes/beach-boat.jpg" class="img-circle" height="65" width="65" alt="Avatar">
+                    <img src="https://res.cloudinary.com/dmwim1a1p/image/upload/v1550758763/samples/landscapes/beach-boat.jpg"
+                         class="img-circle" height="65" width="65" alt="Avatar">
                 </div>
                 <div class="col-sm-10">
                     <h4>John Row
@@ -158,7 +163,8 @@
                     <p><span class="badge">1</span> Comment:</p><br>
                     <div class="row">
                         <div class="col-sm-2 text-center">
-                            <img src="https://res.cloudinary.com/dmwim1a1p/image/upload/v1550776325/cheetah.jpg" class="img-circle" height="65" width="65" alt="Avatar">
+                            <img src="https://res.cloudinary.com/dmwim1a1p/image/upload/v1550776325/cheetah.jpg"
+                                 class="img-circle" height="65" width="65" alt="Avatar">
                         </div>
                         <div class="col-xs-10">
                             <h4>Nested Bro
@@ -177,10 +183,10 @@
 <!--CONNECT -->
 
 <div class="container-fluid padding">
-<div class="row text-center padding">
-    <div class="col-12">
-        <h2>Connect</h2>
-    </div>
+    <div class="row text-center padding">
+        <div class="col-12">
+            <h2>Connect</h2>
+        </div>
         <div class="col-12 padding">
             <a href="#"><i class="fab fa-facebook"></i></a>
             <a href="#"><i class="fab fa-twitter"></i></a>
@@ -197,6 +203,10 @@
     <p>Footer Text</p>
 </footer>
 
+
+<!--JS and Jquery -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
 </body>
 </html>
 
